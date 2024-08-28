@@ -3,7 +3,9 @@ import { IoChevronForward } from "react-icons/io5";
 
 const Breadcrumb = () => {
 	return (
-		<div className="flex max-w-[1440px] mx-auto my-4" aria-label="Breadcrumb">
+		<div
+			className="hidden md:flex max-w-[1440px] mx-auto my-4 px-4"
+			aria-label="Breadcrumb">
 			<ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
 				<li className="inline-flex items-center gap-1">
 					<a
