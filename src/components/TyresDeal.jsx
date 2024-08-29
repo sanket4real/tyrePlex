@@ -37,7 +37,7 @@ const settings = {
 };
 const TyresDeal = () => {
 	return (
-		<section className="tyre-deal mt-4 px-4 overflow-hidden">
+		<section className="tyre-deal mt-4 px-4 overflow-hidden max-w-[1440px] mx-auto">
 			<h4 className="font-medium">Deals in</h4>
 
 			<Slider {...settings}>
