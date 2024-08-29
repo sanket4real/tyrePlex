@@ -84,7 +84,7 @@ const Navigation = () => {
 							menuOpen ? "block" : "hidden"
 						} w-full lg:flex lg:w-auto lg:order-1`}
 						id="navbar-sticky">
-						<ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border  rounded-lg  lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 ">
+						<ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border  rounded-lg  lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 nav-node">
 							{navItems.tyres.map((navItem) => (
 								<li key={navItem.id} className="group">
 									<a
@@ -94,7 +94,7 @@ const Navigation = () => {
 									</a>
 
 									{navItem.items && (
-										<ul className="hidden group-hover:block absolute bg-white border border-gray-200 rounded-lg mt-2">
+										<ul className="hidden group-hover:block lg:absolute border border-gray-200 rounded-lg mt-2 bg-white z-10 nav-node-item">
 											{navItem.items.map((item, index) => (
 												<li key={index}>
 													<a
