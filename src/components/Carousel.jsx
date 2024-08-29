@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Carousel = () => {
 	const settings = {
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
@@ -17,7 +17,7 @@ const Carousel = () => {
 	};
 
 	return (
-		<div className="carousel-container w-full mx-auto">
+		<div className="carousel-container w-full mx-auto sm:m-0 sm:ml-auto">
 			<Slider {...settings}>
 				<div>
 					<img src="https://placehold.jp/ea1f1f/ffffff/300x300.png" alt="Slide 1" />

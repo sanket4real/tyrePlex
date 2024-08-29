@@ -15,8 +15,8 @@ const ShopDetails = () => {
 					</span>
 				</h1>
 			</div>
-			<div className="flex flex-col sm:flex-row">
-				<div className="flex flex-col justify-center sm:w-[50%]">
+			<div className="flex flex-col sm:flex-row justify-between">
+				<div className="flex flex-col justify-center sm:w-[74%] pr-3">
 					<div className="flex items-center gap-2">
 						<span className="">
 							<IoLocationOutline />
@@ -39,7 +39,7 @@ const ShopDetails = () => {
 						Get Directions
 					</button>
 				</div>
-				<div className="flex mt-3 sm:w-[40%]">
+				<div className="flex mt-3 sm:w-[25%]">
 					<Carousel />
 				</div>
 			</div>

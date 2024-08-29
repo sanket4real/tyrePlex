@@ -27,8 +27,8 @@ const reviewData = [
 const Reviews = ({ reviewCount }) => {
 	return (
 		<section className="flex flex-col max-w-[1440px] mx-auto mt-4 px-4">
-			<h4>{reviewCount} Google Reviews</h4>
-			<div className="flex gap-2 w-full flex-wrap">
+			<h4 className="font-medium">{reviewCount} Google Reviews</h4>
+			<div className="flex gap-2 w-full justify-between flex-wrap">
 				{reviewData.map((data) => (
 					<ReviewCard
 						key={data.id}

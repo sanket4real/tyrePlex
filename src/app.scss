@@ -12,17 +12,21 @@ html {
 
 .carousel-container {
 	width: 100%;
-	max-width: 200px;
-	margin: 0 auto;
 	overflow: hidden;
 
 	@media only screen and (max-width: 640px) {
-		max-width: 400px;
+		max-width: 300px;
 	}
 
 	img {
 		width: 100%;
 		height: auto;
 		display: block;
+	}
+}
+
+.tyre-deal {
+	.slick-list {
+		margin: 0 -4px;
 	}
 }
