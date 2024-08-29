@@ -22,15 +22,15 @@ const settings = {
 	infinite: true,
 	speed: 500,
 	autoplay: true,
-	slidesToShow: 3,
-	slidesToScroll: 3,
+	slidesToShow: 4,
+	slidesToScroll: 1,
 	swipeToSlide: true,
 	responsive: [
 		{
 			breakpoint: 768,
 			settings: {
 				slidesToShow: 2,
-				slidesToScroll: 2,
+				slidesToScroll: 1,
 			},
 		},
 		{

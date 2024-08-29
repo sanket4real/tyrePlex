@@ -10,6 +10,9 @@ html {
 	font-family: "Poppins", sans-serif;
 }
 
+$sm: 640px;
+$md: 768px;
+
 .nav-node-item {
 	background: #fff;
 }
@@ -18,7 +21,7 @@ html {
 	width: 100%;
 	overflow: hidden;
 
-	@media only screen and (max-width: 640px) {
+	@media only screen and (max-width: $sm) {
 		max-width: 300px;
 	}
 
@@ -32,5 +35,20 @@ html {
 .tyre-deal {
 	.slick-list {
 		margin: 0 -4px;
+	}
+}
+
+.services-card-wrapper {
+	.card {
+		margin: 0;
+		width: 100%;
+
+		@media screen and (min-width: $sm) {
+			width: 48.6%;
+		}
+
+		@media screen and (min-width: $md) {
+			width: 32%;
+		}
 	}
 }

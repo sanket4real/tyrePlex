@@ -1,6 +1,6 @@
-const Card = ({ name, imgUrl }) => {
+const Card = ({ name, imgUrl, btnText }) => {
 	return (
-		<div className="flex flex-col items-center p-4 min-w-0 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-3 mx-2">
+		<div className="card flex flex-col items-center p-4 min-w-0 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-3 mx-2">
 			<img
 				className="rounded-xl block h-28 object-contain min-w-28"
 				src={imgUrl}
@@ -11,6 +11,9 @@ const Card = ({ name, imgUrl }) => {
 					{name}
 				</h5>
 			</div>
+			{btnText && (
+				<button className="p-2 mt-1 text-red border rounded-lg">{btnText}</button>
+			)}
 		</div>
 	);
 };
