@@ -1,13 +1,20 @@
 import Card from "./Card";
 import Slider from "react-slick";
 
+import mrfImage from "../assets/tyres/mrf.png";
+import ceatImage from "../assets/tyres/ceat.png";
+import goodyearImage from "../assets/tyres/goodyear.png";
+import apolloImage from "../assets/tyres/apollo.png";
+import continentalImage from "../assets/tyres/continental.png";
+import michelinImage from "../assets/tyres/michelin.png";
+
 const slides = [
-	{ id: 1, name: "MRF", img: "../../src/assets/tyres/mrf.png" },
-	{ id: 2, name: "CEAT", img: "../../src/assets/tyres/ceat.png" },
-	{ id: 3, name: "GoodYear", img: "../../src/assets/tyres/goodyear.png" },
-	{ id: 4, name: "Apollo", img: "../../src/assets/tyres/apollo.png" },
-	{ id: 5, name: "Continental", img: "../../src/assets/tyres/continental.png" },
-	{ id: 6, name: "Michelin", img: "../../src/assets/tyres/michelin.png" },
+	{ id: 1, name: "MRF", img: mrfImage },
+	{ id: 2, name: "CEAT", img: ceatImage },
+	{ id: 3, name: "GoodYear", img: goodyearImage },
+	{ id: 4, name: "Apollo", img: apolloImage },
+	{ id: 5, name: "Continental", img: continentalImage },
+	{ id: 6, name: "Michelin", img: michelinImage },
 ];
 
 const settings = {
