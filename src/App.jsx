@@ -5,6 +5,7 @@ import ShopDetails from "./components/ShopDetails";
 import Reviews from "./components/Reviews";
 import TyresDeal from "./components/TyresDeal";
 import Services from "./components/Services";
+import DealerTyres from "./components/DealerTyres";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Reviews reviewCount={2238} />
 			<TyresDeal />
 			<Services />
+			<DealerTyres />
 		</>
 	);
 }

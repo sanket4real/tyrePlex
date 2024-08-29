@@ -6,5 +6,5 @@ export default {
 			red: "#ed1c24",
 		},
 	},
-	plugins: [require("@tailwindcss/line-clamp")],
+	plugins: [],
 };
