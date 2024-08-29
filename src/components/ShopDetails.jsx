@@ -8,7 +8,7 @@ const ShopDetails = () => {
 	return (
 		<section className="flex flex-col max-w-[1440px] mx-auto mt-4 px-4">
 			<div className="flex w-full">
-				<h1 className="flex gap-4 mb-4 w-full text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+				<h1 className="flex gap-4 mb-4 w-full text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl ">
 					SHREE HEMKUNT TYRES AND SERVICES
 					<span className="flex items-center text-xs">
 						<MdOutlineVerifiedUser /> Verified
@@ -34,7 +34,7 @@ const ShopDetails = () => {
 					</div>
 					<button
 						type="button"
-						className="flex items-center gap-2 px-3 py-2 mt-4 w-max text-red hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none   rounded-lg text-sm text-center dark:border-blue-500 dark:text-blue-500 ">
+						className="flex items-center gap-2 px-3 py-2 mt-4 w-max text-red  border border-red  focus:ring-4 focus:outline-none   rounded-lg text-sm text-center">
 						<RiDirectionLine />
 						Get Directions
 					</button>

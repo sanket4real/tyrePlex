@@ -10,16 +10,14 @@ const Breadcrumb = () => {
 				<li className="inline-flex items-center gap-1">
 					<a
 						href="#"
-						className="inline-flex items-center text-sm  text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white gap-2">
+						className="inline-flex items-center text-sm  text-black  gap-2">
 						<FaHome />
 						Home
 					</a>
 				</li>
 				<li>
 					<div className="flex items-center">
-						<a
-							href="#"
-							className="inline-flex items-center text-sm  text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+						<a href="#" className="inline-flex items-center text-sm  text-black ">
 							<IoChevronForward />
 							Tyre Dealers
 						</a>
@@ -27,9 +25,7 @@ const Breadcrumb = () => {
 				</li>
 				<li>
 					<div className="flex items-center">
-						<a
-							href="#"
-							className="inline-flex items-center text-sm  text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+						<a href="#" className="inline-flex items-center text-sm  text-black ">
 							<IoChevronForward />
 							Tyre Dealers in Ghaziabad
 						</a>
@@ -39,7 +35,7 @@ const Breadcrumb = () => {
 					<div className="flex items-center">
 						<a
 							href="#"
-							className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+							className="inline-flex items-center text-sm font-medium text-black">
 							<IoChevronForward />
 							SHREE HEMKUNT TYRES AND SERVICES
 						</a>
