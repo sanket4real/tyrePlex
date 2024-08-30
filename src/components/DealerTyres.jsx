@@ -3,6 +3,8 @@ import { IoSearchOutline } from "react-icons/io5";
 import { GoChevronDown } from "react-icons/go";
 import ProductCard from "./ProductCard";
 import michelinImage from "../assets/tyres/michelin.png";
+import yokohomaImage from "../assets/tyres/Yokohama.png";
+import tyreImg from "../assets/tyres/tyre-img.webp";
 import { useState } from "react";
 
 const tyreOptions = [
@@ -40,6 +42,7 @@ const tyres = [
 		offer: "Offer available",
 		tyreType: "Tube Type",
 		warranty: 6,
+		tyreImg: tyreImg,
 	},
 	{
 		id: 2,
@@ -50,6 +53,7 @@ const tyres = [
 		offer: "Offer available",
 		tyreType: "Tube Type",
 		warranty: 6,
+		tyreImg: tyreImg,
 	},
 	{
 		id: 3,
@@ -60,16 +64,18 @@ const tyres = [
 		offer: "Offer available",
 		tyreType: "Tube Type",
 		warranty: 6,
+		tyreImg: tyreImg,
 	},
 	{
 		id: 4,
 		tyreName: "CITY PRO IND",
 		imgUrl: michelinImage,
-		dimension: "90/90-12",
+		dimension: "",
 		price: "₹ 1,525",
 		offer: "Offer available",
 		tyreType: "Tube Type",
 		warranty: 6,
+		tyreImg: tyreImg,
 	},
 	{
 		id: 5,
@@ -80,6 +86,7 @@ const tyres = [
 		offer: "Offer available",
 		tyreType: "Tube Type",
 		warranty: 6,
+		tyreImg: tyreImg,
 	},
 	{
 		id: 6,
@@ -90,6 +97,7 @@ const tyres = [
 		offer: "Offer available",
 		tyreType: "Tube Type",
 		warranty: 6,
+		tyreImg: tyreImg,
 	},
 	{
 		id: 7,
@@ -100,6 +108,7 @@ const tyres = [
 		offer: "Offer available",
 		tyreType: "Tube Type",
 		warranty: 6,
+		tyreImg: tyreImg,
 	},
 	{
 		id: 8,
@@ -110,6 +119,7 @@ const tyres = [
 		offer: "Offer available",
 		tyreType: "Tube Type",
 		warranty: 6,
+		tyreImg: tyreImg,
 	},
 	{
 		id: 9,
@@ -120,6 +130,7 @@ const tyres = [
 		offer: "Offer available",
 		tyreType: "Tube Type",
 		warranty: 6,
+		tyreImg: tyreImg,
 	},
 ];
 
@@ -171,7 +182,7 @@ const DealerTyres = () => {
 					/>
 				</div>
 			</div>
-			<div className="product-cards-grid mt-3 flex flex-wrap gap-4">
+			<div className="product-cards-grid mt-3 flex flex-wrap gap-2 justify-between">
 				{tyres.slice(0, visibleCount).map((tyre) => (
 					<ProductCard
 						key={tyre.id}
@@ -182,6 +193,7 @@ const DealerTyres = () => {
 						tyreName={tyre.tyreName}
 						tyreType={tyre.tyreType}
 						offer={tyre.offer}
+						tyreImg={tyre.tyreImg}
 					/>
 				))}
 			</div>
