@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+$sm: 640px;
+$md: 768px;
+
 *,
 html {
 	padding: 0;
@@ -10,8 +13,9 @@ html {
 	font-family: "Poppins", sans-serif;
 }
 
-$sm: 640px;
-$md: 768px;
+body {
+	margin-bottom: 100px;
+}
 
 .nav-node-item {
 	background: #fff;
