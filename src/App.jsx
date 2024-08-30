@@ -6,6 +6,7 @@ import Reviews from "./components/Reviews";
 import TyresDeal from "./components/TyresDeal";
 import Services from "./components/Services";
 import DealerTyres from "./components/DealerTyres";
+import Payment from "./components/Payment";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<TyresDeal />
 			<Services />
 			<DealerTyres />
+			<Payment />
 		</>
 	);
 }
